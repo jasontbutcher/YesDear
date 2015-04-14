@@ -51,7 +51,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #646464;
+		color: #353535;/*#646464;*/
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 0.5em 0;
@@ -163,7 +163,7 @@
 	}
 
 	header p {
-		color: #999;
+		color: #353535;
 		position: relative;
 		margin: 0 0 1.5em 0;
 		font-style: italic;
@@ -201,7 +201,7 @@
 		header.major p {
 			display: inline-block;
 			border-top: solid 2px #e5e5e5;
-			color: #777;
+			color: #353535;
 			margin: 1.5em 0 0 0;
 			padding: 1.5em 0 0 0;
 			font-style: normal;
@@ -578,7 +578,7 @@
 			}
 
 			.icon.major.accent5 {
-				background: #e5cb95;
+				background: #9e2932;
 				color: #ffffff;
 			}
 
@@ -834,7 +834,7 @@
 		-o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #666;
+		background-color: #353535;
 		border-radius: 6px;
 		border: 0;
 		color: #ffffff;
@@ -938,7 +938,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #e89980;
+			background-color: #9e2932;/*e89980;*/
 			color: #ffffff !important;
 		}
 
@@ -986,7 +986,7 @@
 	@keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
 
 	#header {
-		background: #444;
+		background: #353535;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -1222,11 +1222,12 @@
 	#banner {
 		background-attachment: scroll,							fixed;
 		background-color: #666;
-		background-image: url("images/overlay.png"), url("../images/banner.jpg");
+		/*background-image: url("../images/banner.jpg");*/
+        background-image: url("images/overlay.png"), url("../images/banner.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
 		background-size: auto,							cover;
-		color: #fff;
+		color: #353535;
 		padding: 12em 0 20em 0;
 		text-align: center;
 	}
@@ -1300,7 +1301,7 @@
 			}
 
 			#main > header p {
-				border-top: solid 2px #e5e5e5;
+				border-top: solid 2px #353535;/*#e5e5e5;*/
 				color: #777;
 				display: inline-block;
 				font-style: normal;
